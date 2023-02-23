@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil Booki</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/fontawesome/css/all.css"/>
+</head>
+<body>
+    <!-- Intégration du logo ainsi que de la barre de navigation -->
+   <header>
+    <div class="header">
+        <img class="logo" src="assets/logo/Booki.png" alt="logo Booki">
+        <nav class="menu"> 
+            <ul>
+                <li>
+                    <a href="#hebergements">Hébergements</a>
+                </li>
+                <li>
+                    <a href="#activites">Activités</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+   </header>
+   <!--
+     ################################
+     ####Début du corps principal####
+     ################################
+ -->
+   <main>
+        <h1> Trouver votre hébergements pour vos vacances de rêves</h1>
+        <p>En plein centre ville ou en pleinte nature</p>
+        <!-- Barre de recherche  -->
+        <form class="formulaire" method="post" action="">
+            <i class="fa-solid fa-location-dot"></i>
+            <input class="barre" type="text">
+            <input class="recherche" type="submit" value="Rechercher">
+        </form>
+        <!-- Filtres pour affiner la recherche  -->
+        <div class="filtre">
+        <h3>Filtre</h3>
+        <ul class="filtres">
+            <li><i class="fa-solid fa-money-bill-wave"></i>Économique</li>
+            <li><i class="fa-sharp fa-solid fa-person"></i>Familial</li>
+            <li><i class="fa-solid fa-heart"></i>Romantique</li>
+            <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
+        </ul>
+        </div>
+        <!-- Indications supplémentaire  -->
+        <div class="infos">
+            <i class="fa-solid fa-info"></i>
+            <span>Plus de 500 logements sont disponibles dans cette ville</span>
+        </div>
+        <section class="parent">
+            <!-- Hébergements à marseille  -->
+            <div class="hébergements">
+                
+                <div class="cards">
+                    <a href="#">
+                    <img  class="rectangle" src="assets/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre d'hôtel">
+                    <h4> Auberge la canebière</h4>
+                    <p>Nuit à partir de 25€</p>
+                    </a>
+
+                </div>
+                <div class="cards">
+                    <a href="#">
+                    <img  class="rectangle" src="assets/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="chambre d'hôtel">
+                    <h4> Hôtel du port</h4>
+                    <p>Nuit à partir de 52€</p>
+                    </a>
+
+                </div>
+                <div class="cards">
+                    <a href="#">
+                    <img  class="rectangle" src="assets/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="chambre d'hôtel">
+                    <h4>Hôtel Les mouettes</h4>
+                    <p>Nuit à partir de 76€</p>
+                    </a>
+
+                </div>
+                <div class="cards">
+                    <a href="#">
+                    <img  class="rectangle" src="assets/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="chambre d'hôtel">
+                    <h4> Hôtel de la mer</h4>
+                    <p>Nuit à partir de 46€</p>
+                    </a>
+
+                </div>
+                <div class="cards">
+                    <a href="#">
+                    <img  class="rectangle" src="assets/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="chambre d'hôtel">
+                    <h4> Auberge Le panier</h4>
+                    <p>Nuit à partir de 23€</p>
+                    </a>
+
+                </div>
+                <div class="cards">
+                    <a href="#">
+                    <img  class="rectangle" src="assets/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="chambre d'hôtel">
+                    <h4> Auberge Chez Amina</h4>
+                    <p>Nuit à partir de 96€</p>
+                    </a>
+
+                </div>
+                <span><a href="#">Afficher plus</a></span>
+            </div>
+            <!-- hébergements populaires  -->
+            <div class="populaires"> 
+                <div class="cardspop">
+                    <a href="#">
+                        <img class="carré" src="assets/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
+                        <h4>Hôtel Le soleil du matin</h4>
+                        <p>Nuit à partir de 128€</p>
+                    </a>
+                </div>
+                <div class="cardspop">
+                    <a href="#">
+                        <img class="carré" src="assets/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg">
+                        <h4>Chambre d'hôte Au coeur de l'eau</h4>
+                        <p>Nuit à partir de 71€</p>
+                    </a>
+                </div>
+                <div class="cardspop">
+                    <a href="#">
+                        <img class="carré" src="assets/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
+                        <h4>Hôtel Bleu et Blanc</h4>
+                        <p>Nuit à partir de 68€</p>
+                    </a>
+                </div>
+            </div>
+            <div class="activités"> </div>
+        </section> 
+   </main>
+   <!-- <footer>
+    <div class="propos">
+        <ul>
+            <li><h5>À propos</h5></li>
+            <li><a href="">Fonctionnement du site</a></li>
+            <li><a href="">Conditions générales</a></li>
+            <li><a href="">Données et confidentialité</a></li>
+        </ul>
+    </div>
+    <div class="hebergements">
+        <ul>
+            <li><h5>Nos hébergements</h5></li>
+            <li><a href="">Charte de qualité</a></li>
+            <li> <a href="">Propose votre hôtel</a></li>
+        </ul>
+    </div>
+    <div class="assistance">
+            <ul>
+                <li><h5>Assistance</h5></li>
+                <li><a href="">Centre d'aide</a></li>
+                <li><a href="">Nous contacter</a></li>
+            </ul>
+    </div>
+
+   </footer> -->
+</body>
+</html>
