@@ -228,14 +228,17 @@ li {
 }
 
 .hebergements-cards .card-content {
-    width: 33%;
+    width: 100%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: start;
     box-sizing: border-box;
     align-self: stretch;
 }
+
 
 .populaires-cards .card-title {
     margin-top: 10px;
